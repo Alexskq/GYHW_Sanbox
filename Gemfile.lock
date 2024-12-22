@@ -127,7 +127,7 @@ GEM
       rainbow
       rubocop (>= 1)
       smart_properties
-    erubi (1.13.0)
+    erubi (1.13.1)
     et-orbi (1.2.11)
       tzinfo
     ffi (1.17.0-aarch64-linux-gnu)
@@ -171,7 +171,7 @@ GEM
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    logger (1.6.3)
+    logger (1.6.4)
     loofah (2.23.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
@@ -334,7 +334,7 @@ GEM
       railties (>= 4.0)
       simple_form (>= 5.0)
     smart_properties (1.17.0)
-    solid_cable (3.0.4)
+    solid_cable (3.0.5)
       actioncable (>= 7.2)
       activejob (>= 7.2)
       activerecord (>= 7.2)
