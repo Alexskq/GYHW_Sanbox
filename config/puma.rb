@@ -37,7 +37,6 @@ plugin :tmp_restart
 plugin :solid_queue if ENV["SOLID_QUEUE_IN_PUMA"]
 
 # Use the Tailwind CSS just-in-time compiler in development
-plugin :tailwindcss if ENV.fetch("RAILS_ENV", "development") == "development"
 
 # Specify the PID file. Defaults to tmp/pids/server.pid in development.
 # In other environments, only set the PID file if requested.
